@@ -1,0 +1,111 @@
+body{
+    box-shadow: inset 0 0 50px green;
+}
+.topBtns{
+    top:30px;
+    left:30px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -310px;
+    margin-left: -610px;
+    width: 1220px;
+    height: 582px;
+    border-radius: 6px;
+    text-align: center;
+    border:1px solid red;
+}
+#lettersBox{
+    height:150px;
+    color:#666;
+    font-size:62px;
+    line-height: 100px;
+    text-align: center;
+    transition: all .5s;
+}
+#lettersBox div{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    margin:0 14px;
+    border:2px solid #999;
+    transition:all 1s;
+}
+#lettersBox .right{
+    background-color: green;
+    border:2px solid green;
+    color:#fff;
+}
+#lettersBox .wrong{
+    border:2px solid red;
+    color:red;
+}
+#lettersBox .common{
+    color:#666;
+}
+#keyboardBox{
+    border:3px solid #999;
+    border-radius: 6px;
+}
+#main{
+    border:none;
+}
+.main .line>span{
+    margin-right:10px;
+    display:inline-block;
+    width:68px;
+    height:68px;
+    color:#888;
+    text-align: center;
+    line-height: 68px;
+    font-size:40px;
+    border:1px solid #999;
+    transition: all .5s;
+}
+.main .line>span:last-child{
+    margin-right:0;
+}
+.main .line>span.normal{
+    color:#888;
+}
+.main span.normal{
+    color:#999;
+    border-color:#999;
+}
+#keyboardBox{
+    padding:20px 0 10px 0;
+    background-color: #fff;
+}
+.main .line{
+    margin-bottom:10px;
+}
+.main .line.line3{
+    margin-top:-11px;
+}
+.main .line.line5 .space{
+    width:450px;
+}
+.main .line.line5 .ctrl{
+    width:94px!important;
+}
+.main .line>span{
+    position: relative;
+}
+.main .line>span>i:first-child{
+    position: absolute;
+    top:15px;
+    left:12px;
+    font-style: normal;
+    line-height:10px;
+    font-size: 28px;
+}
+.main .line>span>i:last-child{
+    position: absolute;
+    bottom:15px;
+    left:12px;
+    font-style: normal;
+    line-height:10px;
+    font-size: 28px;
+}
