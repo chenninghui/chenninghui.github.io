@@ -84,14 +84,14 @@ document.addEventListener("keydown",function(event){
                 sound.src='./sound/click.wav';
             }
             if(event.keyCode==32){
-                letters[i].style.width = '450px';
+                letters[i].style.width = '401px';
             }
             letters[i].style.color = '#fff';
             letters[i].style.background = color;
             letters[i].style.borderColor = color;
             letters[i].style.boxShadow = '0px 0px 50px '+color;
             keyboardBox.style.borderColor = color;
-            keyboardBox.style.boxShadow = '0px 0px 60px '+color;
+            keyboardBox.style.boxShadow = 'inset 0px 0px 60px '+color;
 
             if(event.code=='Enter'){
                 enterDom.style.borderColor = color;
@@ -108,7 +108,7 @@ document.addEventListener("keydown",function(event){
                 keyboardBox.style.borderColor = '#999';
                 keyboardBox.style.boxShadow = 'none';
                 if(event.keyCode==32){
-                    letters[i].style.width = '450px';
+                    letters[i].style.width = '401px';
                 }
                 if(event.code=='Enter'){
                     enterDom.style.borderColor = '#999';
