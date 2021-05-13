@@ -1,4 +1,4 @@
-console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://github.com/izhaoo/hexo-theme-zhaoo");
+console.log("%c Motto %c", "background:#333333; color:#ffffff", "", "你好！朋友！");
 
 (function ($) {
   "use strict";

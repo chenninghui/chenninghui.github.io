@@ -43,7 +43,9 @@ window.onload = function(){
 <td>单元格</td>
 </tr>
 </tbody></table>
-]]></content>
+<audio id="audio" controls="" preload="none">
+<source id="mp3" src="http://oht4nlntk.bkt.clouddn.com/Music_iP%E8%B5%B5%E9%9C%B2%20-%20%E7%A6%BB%E6%AD%8C%20%28Live%29.mp3">
+</audio>]]></content>
   </entry>
   <entry>
     <title>工具链接</title>
@@ -67,6 +69,20 @@ window.onload = function(){
 ]]></content>
       <tags>
         <tag>工具链接</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>车牌归属地</title>
+    <url>/2021/05/13/chepai/</url>
+    <content><![CDATA[<p>各省市车牌归属地查询（Vue）</p>
+<span id="more"></span>
+<script>
+window.onload = function(){
+    window.location.href = '/project/chepai/';
+}
+</script>]]></content>
+      <tags>
+        <tag>车牌归属地</tag>
       </tags>
   </entry>
   <entry>
