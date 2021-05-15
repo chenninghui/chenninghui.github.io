@@ -76,11 +76,14 @@
             z-index:100;
             text-decoration: none;
         }
+        [v-cloak] {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <a class="back" href="https://chenninghui.github.io">⬅返回</a>
-    <div id="app">
+    <div id="app" v-cloak>
         <audio id="audio" :src="audioSrc" autoplay="true"></audio>
         <div class="main-box">
             <div class="top">

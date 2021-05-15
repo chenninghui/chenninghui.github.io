@@ -2,8 +2,8 @@
 <search>
   <entry>
     <title>在线打字</title>
-    <url>/2021/05/13/dazi/</url>
-    <content><![CDATA[<p>打字速度有待提升，试试看</p>
+    <url>/2021/05/06/dazi/</url>
+    <content><![CDATA[<p>打字速度有待提升，试试看（Javascript）</p>
 <span id="more"></span>
 <script>
 window.onload = function(){
@@ -23,34 +23,11 @@ window.onload = function(){
       </tags>
   </entry>
   <entry>
-    <title>讲故事</title>
-    <url>/2021/05/13/story/</url>
-    <content><![CDATA[<p>每天讲故事</p>
+    <title>工具链接</title>
+    <url>/2021/05/02/tools/</url>
+    <content><![CDATA[<p>一些网站</p>
 <span id="more"></span>
 <table>
-<thead>
-<tr>
-<th>故事名</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>小老鼠上灯台</td>
-<td>单元格</td>
-</tr>
-<tr>
-<td>么么哒</td>
-<td>单元格</td>
-</tr>
-</tbody></table>
-<audio id="audio" controls="" preload="none">
-<source id="mp3" src="http://oht4nlntk.bkt.clouddn.com/Music_iP%E8%B5%B5%E9%9C%B2%20-%20%E7%A6%BB%E6%AD%8C%20%28Live%29.mp3">
-</audio>]]></content>
-  </entry>
-  <entry>
-    <title>工具链接</title>
-    <url>/2021/05/13/tools/</url>
-    <content><![CDATA[<table>
 <thead>
 <tr>
 <th>名称</th>
@@ -58,12 +35,36 @@ window.onload = function(){
 </tr>
 </thead>
 <tbody><tr>
-<td>单元格</td>
-<td>单元格</td>
+<td><a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95">配置文档</a></td>
+<td>主题配置文档</td>
 </tr>
 <tr>
-<td>单元格</td>
-<td>单元格</td>
+<td><a href="https://lottiefiles.com/">LottieFiles</a></td>
+<td>动画下载,loading…</td>
+</tr>
+<tr>
+<td><a href="https://oschina.gitee.io/learn-git-branching/?demo">学习Git分支</a></td>
+<td>可以说是目前为止最好的教程了</td>
+</tr>
+<tr>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td>—-</td>
+<td>—-</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -72,8 +73,15 @@ window.onload = function(){
       </tags>
   </entry>
   <entry>
+    <title>小白学Java</title>
+    <url>/2021/04/20/java-helloworld/</url>
+    <content><![CDATA[<p>第一个java程序自然是Hello World</p>
+<span id="more"></span>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-comment">// HelloWorld.java</span><br><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloWorld</span> </span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span></span>&#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br>    &#125;<br>&#125;<br><br>学习笔记 ＝&gt; [吴俊笔记](https:<span class="hljs-comment">//wujun234.github.io/)</span><br></code></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
     <title>车牌归属地</title>
-    <url>/2021/05/13/chepai/</url>
+    <url>/2020/09/30/chepai/</url>
     <content><![CDATA[<p>全国各省市车牌归属地查询（vue2）</p>
 <span id="more"></span>
 <script>
@@ -87,7 +95,7 @@ window.onload = function(){
   </entry>
   <entry>
     <title>Vip视频解析</title>
-    <url>/2021/05/13/vip/</url>
+    <url>/2020/03/16/vip/</url>
     <content><![CDATA[<p>支持主流视频平台会员视频解析</p>
 <span id="more"></span>
 <style>
@@ -153,12 +161,5 @@ $('#other .header').click(function(){$('#other .cont').slideToggle(800);})
       <tags>
         <tag>视频解析</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>小白学Java</title>
-    <url>/2021/05/13/java-helloworld/</url>
-    <content><![CDATA[<p>第一个java程序自然是Hello World</p>
-<span id="more"></span>
-<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-comment">// HelloWorld.java</span><br><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloWorld</span> </span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span></span>&#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br>    &#125;<br>&#125;<br><br>学习笔记 ＝&gt;  <br><br>&lt;a href=<span class="hljs-string">&quot;https://wujun234.github.io/&quot;</span> target=<span class="hljs-string">&quot;_blank&quot;</span>&gt;吴俊笔记&lt;/a&gt;<br></code></pre></td></tr></table></figure>]]></content>
   </entry>
 </search>
