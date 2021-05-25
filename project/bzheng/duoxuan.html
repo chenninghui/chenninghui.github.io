@@ -1,0 +1,775 @@
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+        <title>安全员B证多选题</title>
+    <style>
+        html{
+            font-size:62.5%;
+        }
+        .tips{
+            display:none;
+            color:#4cae4c;
+        }
+    h3{text-align:center;}
+body{
+	font-weight:bold;
+    font-size:16px;
+    background: #a3cbe0;
+    }
+/* #grey{background-color:AliceBlue;} */
+fieldset{
+    background: #e0eef5;
+}
+.result{
+    display:none;
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display:inline-block;
+    padding:5px 10px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+</style>
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.js"></script>
+</head>
+     
+<body>
+    <form action="",method="post">
+    <fieldset>
+        <h2 class="text-center">安全员B证：多选题</h2>
+        <div style="text-align:left;padding:22px;">
+                <button style="margin-right:22px;" id="btn2" class="btn" type="button" >重新答题</button>
+                <button style="margin-right:22px;" id="btn1" class="btn" type="button" >显示答案</button>
+                <button id="btn3" class="btn" type="button" >评分</button>
+        </div>
+        <div id="grey">
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="1">1 动火作业完毕后,应(  )后方可离开。 <span class="tips 1">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ1" value="1"/>A：<span>清理现场</span>
+        <br />
+        <input type="checkbox" name="answ1"  value="2"/>B：<span>熄灭余火</span>
+        <br/>
+        <input type="checkbox" name="answ1"  value="3"/>C：<span>切断电源</span>
+        <br/>
+        <input type="checkbox" name="answ1"   value="4"/>D：<span>确认无残留火种</span>
+        <br/>
+        <input type="checkbox" name="answ1"   value="-1"/>E：<span>关好门窗</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result2" class="result">5</div>
+        <p id="2">2 对尚未完全拆除的脚手架而临时停工、休息、隔夜或临时停工的,剩余的脚手架架体上的底笆或脚手板、防护栏杆、连墙件等,必须(  )<span class="tips 2">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ2" value="1"/>A：<span>齐全</span>
+        <br />
+        <input type="checkbox" name="answ2"  value="2"/>B：<span>安全</span>
+        <br/>
+        <input type="checkbox" name="answ2"  value="2"/>C：<span>牢固</span>
+        <br/>
+        <input type="checkbox" name="answ2"   value="3"/>D：<span>有效</span>
+        <br/>
+        <input type="checkbox" name="answ2"   value="-2"/>E：<span>配置</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result3" class="result">3</div>
+        <p id="3">3 盾构机是开挖土砂围岩的主要机械,由(  )分组成,以上三部分总称为盾构壳体<span class="tips 3">正确答案：BCE</span></p>
+        <input type="checkbox" name="answ3" value="-2"/>A：<span>盾头</span>
+        <br />
+        <input type="checkbox" name="answ3"  value="2"/>B：<span>切口环</span>
+        <br/>
+        <input type="checkbox" name="answ3"  value="3"/>C：<span>支承环</span>
+        <br/>
+        <input type="checkbox" name="answ3"   value="-2"/>D：<span>盾身</span>
+        <br/>
+        <input type="checkbox" name="answ3"   value="1"/>E：<span>盾尾</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result4" class="result">4</div>
+        <p id="4">4.《房屋市政工程生产安全重大隐患治理挂牌督办通知书》包括:(  )。<span class="tips 4">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ4" value="2"/>A：工程项目的名称<span></span>
+        <br />
+        <input type="checkbox" name="answ4"  value="2"/>B：重大隐患的具体内容<span></span>
+        <br/>
+        <input type="checkbox" name="answ4"  value="3"/>C：治理要求及期限<span></span>
+        <br/>
+        <input type="checkbox" name="answ4"   value="1"/>D：督办解除的程序<span></span>
+        <br/>
+        <input type="checkbox" name="answ4"   value="4"/>E：其他有关的要求<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result5" class="result">2</div>
+        <p id="5">5 拆下的模板构、配件严禁向下抛掷。应做到边拆除、(  )<span class="tips 5">正确答案：ABC</span></p>
+        <input type="checkbox" name="answ5" value="1"/>A：边清理<span></span>
+        <br />
+        <input type="checkbox" name="answ5"  value="2"/>B：边堆放<span></span>
+        <br/>
+        <input type="checkbox" name="answ5"  value="1"/>C：边运输<span></span>
+        <br/>
+        <input type="checkbox" name="answ5"   value="-2"/>D：边整理<span></span>
+        <br/>
+        <input type="checkbox" name="answ5"   value="-3"/>E：边集中<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result6" class="result">3</div>
+        <p id="6">6 附着升降脚手架具有(  )等特点<span class="tips 6">正确答案：ABCE</span></p>
+        <input type="checkbox" name="answ6" value="2"/>A：钢量少<span></span>
+        <br />
+        <input type="checkbox" name="answ6"  value="2"/>B：成本低<span></span>
+        <br/>
+        <input type="checkbox" name="answ6"  value="2"/>C：实用性强<span></span>
+        <br/>
+        <input type="checkbox" name="answ6"   value="-1"/>D：搭设简单<span></span>
+        <br/>
+        <input type="checkbox" name="answ6"   value="4"/>E：智能<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result7" class="result">3</div>
+        <p id="7">7 各项施工现场管理制度应有文明施工的规定,包括(  )和各项专业管理制度等 <span class="tips 7">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ7" value="2"/>A：个人岗位责任制<span></span>
+        <br />
+        <input type="checkbox" name="answ7"  value="2"/>B：经济责任制<span></span>
+        <br/>
+        <input type="checkbox" name="answ7"  value="2"/>C：安全检查制度<span></span>
+        <br/>
+        <input type="checkbox" name="answ7"   value="2"/>D：持证上岗制度<span></span>
+        <br/>
+        <input type="checkbox" name="answ7"   value="2"/>E：奖惩制度<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result8" class="result">4</div>
+        <p id="8">8 根据《安全生产法》规定,承担安全评价、认证、检测、检验的机构应当具备国家规定的资质条件,并对其作出的(  )的结果负责。<span class="tips 8">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ8" value="1"/>A：安全评价<span></span>
+        <br />
+        <input type="checkbox" name="answ8"  value="2"/>B：认证<span></span>
+        <br/>
+        <input type="checkbox" name="answ8"  value="1"/>C：检测<span></span>
+        <br/>
+        <input type="checkbox" name="answ8"   value="1"/>D：检验<span></span>
+        <br/>
+        <input type="checkbox" name="answ8"   value="-1"/>E：评估<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result9" class="result">3</div>
+        <p id="9">9 根据《安全生产法》规定,生产经营单位新建、改建、扩建工程项目(以下统称建设项目)的安全设施,必须与主体工程(  )。 <span class="tips 9">正确答案：ABE</span></p>
+        <input type="checkbox" name="answ9" value="2"/>A：同时设计<span></span>
+        <br />
+        <input type="checkbox" name="answ9"  value="2"/>B：同时施工<span></span>
+        <br/>
+        <input type="checkbox" name="answ9"  value="-2"/>C：同时竣工<span></span>
+        <br/>
+        <input type="checkbox" name="answ9"   value="-2"/>D：同时报废<span></span>
+        <br/>
+        <input type="checkbox" name="answ9"   value="3"/>E：同时投入生产和使用<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result10" class="result">3</div>
+        <p id="10">10.根据《安全生产法》规定,事故调查处理应当按照(  )的原则,及时、准确地查清事故原因,查明事故性质和责任,总结事故教训,提出整改措施,并对事故责任者提出处理意见。<span class="tips 10">正确答案：BCDE</span></p>
+        <input type="checkbox" name="answ10" value="-1"/>A：教育为主<span></span>
+        <br />
+        <input type="checkbox" name="answ10"  value="2"/>B：科学严谨<span></span>
+        <br/>
+        <input type="checkbox" name="answ10"  value="2"/>C：依法依规<span></span>
+        <br/>
+        <input type="checkbox" name="answ10"   value="4"/>D：实事求是<span></span>
+        <br/>
+        <input type="checkbox" name="answ10"   value="1"/>E：注重实效<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result11" class="result">3</div>
+        <p id="11">11 根据《安全生产法》规定,未经依法批准,擅自(  )危险物品或者处置废弃危险物品的,依照有关危险物品安全管理的法律、行政法规的规定予以处罚。 <span class="tips 11">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ11" value="1"/>A：生产<span></span>
+        <br />
+        <input type="checkbox" name="answ11"  value="2"/>B：经营<span></span>
+        <br/>
+        <input type="checkbox" name="answ11"  value="2"/>C：运输<span></span>
+        <br/>
+        <input type="checkbox" name="answ11"   value="2"/>D：储存<span></span>
+        <br/>
+        <input type="checkbox" name="answ11"   value="1"/>E：使用<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result12" class="result">4</div>
+        <p id="12">12 根据《房屋市政工程生产安全重大隐患排查治理挂牌督办暂行办法》,被挂牌督办项目,其(  )将在市建筑建材网站上公示,接受社会监督 <span class="tips 12">正确答案：ACDE</span></p>
+        <input type="checkbox" name="answ12" value="1"/>A：企业<span></span>
+        <br />
+        <input type="checkbox" name="answ12"  value="-2"/>B：法人代表<span></span>
+        <br/>
+        <input type="checkbox" name="answ12"  value="2"/>C：项目负责人<span></span>
+        <br/>
+        <input type="checkbox" name="answ12"   value="3"/>D：工程项目<span></span>
+        <br/>
+        <input type="checkbox" name="answ12"   value="1"/>E：重大隐患情况<span></span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result13" class="result">4</div>
+        <p id="13">13 根据《工伤保险条例》的规定,职工有(  )情形之一的,应当认定为工伤。 <span class="tips 13">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ13" value="1"/>A：在工作时间和工作场所内,因工作原因受到事故伤害的<span></span>
+        <br />
+        <input type="checkbox" name="answ13"  value="2"/>B：工作时间前后在工作场所内,从事与工作有关的预备性或者收尾性工作受到事故伤害的<span></span>
+        <br/>
+        <input type="checkbox" name="answ13"  value="1"/>C：<span>在工作时间和工作场所内,因履行工作职责受到暴力等意外伤害的</span>
+        <br/>
+        <input type="checkbox" name="answ13"   value="1"/>D：<span>患职业病的</span>
+        <br/>
+        <input type="checkbox" name="answ13"   value="1"/>E：<span>在上下班途中,受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result14" class="result">4</div>
+        <p id="14"> <span class="tips 14">正确答案：ACE</span></p>
+        <input type="checkbox" name="answ14" value="1"/>A：<span>产权备案</span>
+        <br />
+        <input type="checkbox" name="answ14"  value="-2"/>B：<span>型号备案</span>
+        <br/>
+        <input type="checkbox" name="answ14"  value="1"/>C：<span>过户备案</span>
+        <br/>
+        <input type="checkbox" name="answ14"   value="-1"/>D：<span>落户备案</span>
+        <br/>
+        <input type="checkbox" name="answ14"   value="1"/>E：<span>进沪备案</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result15" class="result">4</div>
+        <p id="15">15 根据《建设工程安全生产管理条例》规定,(  )及其他与建设工程安全生产有关的单位,必须遵守安全生产法律、法规的规定,保证建设工程安全生产,依法承担建设工程安全生产责任 <span class="tips 15">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ15" value="1"/>A：<span>建设单位</span>
+        <br />
+        <input type="checkbox" name="answ15"  value="2"/>B：<span>勘察单位</span>
+        <br/>
+        <input type="checkbox" name="answ15"  value="1"/>C：<span>设计单位</span>
+        <br/>
+        <input type="checkbox" name="answ15"   value="1"/>D：<span>施工单位</span>
+        <br/>
+        <input type="checkbox" name="answ15"   value="1"/>E：<span>工程监理单位</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result16" class="result">4</div>
+        <p id="16"> <span class="tips 16">正确答案：AE</span></p>
+        <input type="checkbox" name="answ16" value="1"/>A：<span>生产(制造)许可证</span>
+        <br />
+        <input type="checkbox" name="answ16"  value="-2"/>B：<span>设备履历书</span>
+        <br/>
+        <input type="checkbox" name="answ16"  value="-1"/>C：<span>产品使用说明书</span>
+        <br/>
+        <input type="checkbox" name="answ16"   value="-1"/>D：<span>产品结构图</span>
+        <br/>
+        <input type="checkbox" name="answ16"   value="1"/>E：<span>产品合格证</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result17" class="result">4</div>
+        <p id="17">17.根据《建筑工程、公路与市政工程施工现场专业人员配备标准》(DG/TJ08-2225-2017规定,项目负责人(总承包和专业分包)任职应(  )。 <span class="tips 17">正确答案：ABC</span></p>
+        <input type="checkbox" name="answ17" value="1"/>A：<span>取得建造师注册证书</span>
+        <br />
+        <input type="checkbox" name="answ17"  value="2"/>B：<span>按规定取得安全生产考核合格证</span>
+        <br/>
+        <input type="checkbox" name="answ17"  value="1"/>C：<span>所承担工程的专业和规模应符合有关管理规定</span>
+        <br/>
+        <input type="checkbox" name="answ17"   value="-1"/>D：<span>大专以上学历</span>
+        <br/>
+        <input type="checkbox" name="answ17"   value="-1"/>E：<span>三年以上工作经历</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result18" class="result">4</div>
+        <p id="18">18 根据《建筑起重机械安全监督管理规定》,安装单位的(  )应当进行现场监督,技术负责人应当定期巡查。 <span class="tips 18">正确答案：AC</span></p>
+        <input type="checkbox" name="answ18" value="1"/>A：<span>专业技术人员</span>
+        <br />
+        <input type="checkbox" name="answ18"  value="-2"/>B：<span>施工员</span>
+        <br/>
+        <input type="checkbox" name="answ18"  value="1"/>C：<span>专职安全生产管理人员</span>
+        <br/>
+        <input type="checkbox" name="answ18"   value="-1"/>D：<span>项目负责人</span>
+        <br/>
+        <input type="checkbox" name="answ18"   value="-1"/>E：<span>机械员</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result19" class="result">4</div>
+        <p id="19">19 根据《建筑起重杋械安全监督管理规定》,监理单位应当审核建筑起重机械特种设备(  )等文件。<span class="tips 19">正确答案：ACDE</span></p>
+        <input type="checkbox" name="answ19" value="1"/>A：<span>制造许可证</span>
+        <br />
+        <input type="checkbox" name="answ19"  value="-2"/>B：<span>生产许可证</span>
+        <br/>
+        <input type="checkbox" name="answ19"  value="1"/>C：<span>产品合格证</span>
+        <br/>
+        <input type="checkbox" name="answ19"   value="1"/>D：<span>制造监督检验证明</span>
+        <br/>
+        <input type="checkbox" name="answ19"   value="1"/>E：<span>备案证明</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result20" class="result">4</div>
+        <p id="20">20 根据《建筑施工安全技术统一规范》规定,建筑施工安全技术措施预控范围应包括材料质量、作业人员应具备的资格、技术能力及(  )。 <span class="tips 20">正确答案：ACD</span></p>
+        <input type="checkbox" name="answ20" value="1"/>A：<span>检验复验</span>
+        <br />
+        <input type="checkbox" name="answ20"  value="-2"/>B：<span>安全操作</span>
+        <br/>
+        <input type="checkbox" name="answ20"  value="1"/>C：<span>设备和设施检验</span>
+        <br/>
+        <input type="checkbox" name="answ20"   value="1"/>D：<span>作业人员的安全教育</span>
+        <br/>
+        <input type="checkbox" name="answ20"   value="-1"/>E：<span>监测预警</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result21" class="result">4</div>
+        <p id="21">21 根据《建筑施工企业主要负责人、项目负责人和专职安全生产管理人员安全生产管理规定》,专职安全生产管理人员分为(  )。 <span class="tips 21">正确答案：ABE</span></p>
+        <input type="checkbox" name="answ21" value="1"/>A：<span>机械</span>
+        <br />
+        <input type="checkbox" name="answ21"  value="2"/>B：<span>土建</span>
+        <br/>
+        <input type="checkbox" name="answ21"  value="-1"/>C：<span>市政</span>
+        <br/>
+        <input type="checkbox" name="answ21"   value="-1"/>D：<span>安装</span>
+        <br/>
+        <input type="checkbox" name="answ21"   value="1"/>E：<span>综合</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result22" class="result">4</div>
+        <p id="22">22 根据《企业安全生产费用提取和使用管理办法》,安全费用按照(  )的原则进行管理。 <span class="tips 22">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ22" value="1"/>A：<span>企业提取</span>
+        <br />
+        <input type="checkbox" name="answ22"  value="2"/>B：<span>政府监管</span>
+        <br/>
+        <input type="checkbox" name="answ22"  value="1"/>C：<span>确保需要</span>
+        <br/>
+        <input type="checkbox" name="answ22"   value="1"/>D：<span>规范使用</span>
+        <br/>
+        <input type="checkbox" name="answ22"   value="-1"/>E：<span>合理分配</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result23" class="result">4</div>
+        <p id="23">23 根据《上海市安全生产条例》规定,禁止生产经营单位及有关负责人(  )。 <span class="tips 23">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ23" value="1"/>A：<span>指令或者放任从业人员违反操作规程或者安全管理规定从事作业</span>
+        <br />
+        <input type="checkbox" name="answ23"  value="2"/>B：<span>超过核定的生产能力、强度进行生产</span>
+        <br/>
+        <input type="checkbox" name="answ23"  value="1"/>C：<span>隐瞒事故隐患,或者不及时处理已发现的事故隐患</span>
+        <br/>
+        <input type="checkbox" name="answ23"   value="1"/>D：<span>违反操作规程或者安全管理规定从事作业</span>
+        <br/>
+        <input type="checkbox" name="answ23"   value="1"/>E：<span>从事法律、法规规定的其他禁止行为</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result24" class="result">4</div>
+        <p id="24">24 根据《上海市安全生产条例》规定,生产经营单位应当对(  )及时进行安全生产教育和培训。 <span class="tips 24">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ24" value="1"/>A：<span>新进从业人员</span>
+        <br />
+        <input type="checkbox" name="answ24"  value="2"/>B：<span>离岗六个月以上从业人员</span>
+        <br/>
+        <input type="checkbox" name="answ24"  value="1"/>C：<span>换岗的从业人员</span>
+        <br/>
+        <input type="checkbox" name="answ24"   value="1"/>D：<span>采用新工艺、新技术、新材料的从业人员</span>
+        <br/>
+        <input type="checkbox" name="answ24"   value="1"/>E：<span>使用新设备后的从业人员</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result25" class="result">4</div>
+        <p id="25">25 根据《上海市安全生产条例》规定,生产经营活动中,从业人员应当(  )。<span class="tips 25">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ25" value="1"/>A：<span>严格遵守本单位的安全生产规章制度和操作规程</span>
+        <br />
+        <input type="checkbox" name="answ25"  value="2"/>B：<span>正确使用劳动防护用品</span>
+        <br/>
+        <input type="checkbox" name="answ25"  value="1"/>C：<span>接受安全生产教育和培训</span>
+        <br/>
+        <input type="checkbox" name="answ25"   value="1"/>D：<span>及时报告事故隐患和不安全因素</span>
+        <br/>
+        <input type="checkbox" name="answ25"   value="1"/>E：<span>履行法律、法规规定的其他义务</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="26">26 根据《上海市建设工程施工安全监督管理办法》,施工人员对管理人员违反施工安全技术标准或者安全操作规程的作业的指令,有权拒绝执行,并可以向(  )报告 <span class="tips 6">正确答案：DE</span></p>
+        <input type="checkbox" name="answ26" value="-1"/>A：<span>企业负责人</span>
+        <br />
+        <input type="checkbox" name="answ26"  value="-2"/>B：<span>项目负责人</span>
+        <br/>
+        <input type="checkbox" name="answ26"  value="-1"/>C：<span>总监</span>
+        <br/>
+        <input type="checkbox" name="answ26"   value="1"/>D：<span>施工安全管理责任人</span>
+        <br/>
+        <input type="checkbox" name="answ26"   value="1"/>E：<span>安全监督员</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="27">27 根据《上海市建设工程质量和安全管理条例》的规定,下列建设工程,建设单位应当委托监理单位实行监理(  ) <span class="tips 6">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ27" value="1"/>A：<span>国家和本市重点建设工程</span>
+        <br />
+        <input type="checkbox" name="answ27"  value="2"/>B：<span>大中型公用事业工程</span>
+        <br/>
+        <input type="checkbox" name="answ27"  value="1"/>C：<span>住宅工程</span>
+        <br/>
+        <input type="checkbox" name="answ27"   value="1"/>D：<span>利用外国政府或者国际组织贷款、援助资金的工程</span>
+        <br/>
+        <input type="checkbox" name="answ27"   value="1"/>E：<span>国家和市人民政府规定应当实行监理的其他工程</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="28">28 根据《上海市建筑市场管理条例》规定,注册执业人员不得(  ) <span class="tips 6">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ28" value="1"/>A：<span>出租、出借注册执业证书或者执业印章</span>
+        <br />
+        <input type="checkbox" name="answ28"  value="2"/>B：<span>超出注册执业范围或者聘用单位业务范围从事执业活动</span>
+        <br/>
+        <input type="checkbox" name="answ28"  value="1"/>C：<span>在非本人负责完成的文件上签字或者盖章</span>
+        <br/>
+        <input type="checkbox" name="answ28"   value="1"/>D：<span>有法律、法规禁止的其他行为</span>
+        <br/>
+        <input type="checkbox" name="answ28"   value="-1"/>E：<span>不参加年度继续教育</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="29">29 根据《生产安全事故报告和调查处理条例》规定,根据事故的具体情况,事故调查组由(  )以及工会派人组成,并应当邀请人民检察院派人参加<span class="tips 6">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ29" value="1"/>A：<span>有关人民政府</span>
+        <br />
+        <input type="checkbox" name="answ29"  value="2"/>B：<span>安全生产监督管理部门</span>
+        <br/>
+        <input type="checkbox" name="answ29"  value="1"/>C：<span>负有安全生产监督管理职责的有关部门</span>
+        <br/>
+        <input type="checkbox" name="answ29"   value="1"/>D：<span>监察机关</span>
+        <br/>
+        <input type="checkbox" name="answ29"   value="1"/>E：<span>公安机关</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="30">30 根据《施工现场临时用电安全技术规范》规定,(  )或灯具离地面高度低于2.5m等场所的照明,电源电压不应大于36V<span class="tips 6">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ30" value="1"/>A：<span>隧道</span>
+        <br />
+        <input type="checkbox" name="answ30"  value="2"/>B：<span>人防工程</span>
+        <br/>
+        <input type="checkbox" name="answ30"  value="1"/>C：<span>高温</span>
+        <br/>
+        <input type="checkbox" name="answ30"   value="1"/>D：<span>有导电灰尘</span>
+        <br/>
+        <input type="checkbox" name="answ30"   value="-1"/>E：<span>潮湿</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="31">31 根据《特种设备安全法》规定,特种设备(  )应当遵守有关特种设备安全技术规范及相关标准<span class="tips 6">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ31" value="1"/>A：<span>生产</span>
+        <br />
+        <input type="checkbox" name="answ31"  value="2"/>B：<span>经营</span>
+        <br/>
+        <input type="checkbox" name="answ31"  value="1"/>C：<span>使用</span>
+        <br/>
+        <input type="checkbox" name="answ31"   value="1"/>D：<span>检验</span>
+        <br/>
+        <input type="checkbox" name="answ31"   value="1"/>E：<span>检测</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="32">32 根据《特种设备安全法》规定,特种设备安全工作应当坚持(  )的原则。 <span class="tips 6">正确答案：ABCE</span></p>
+        <input type="checkbox" name="answ32" value="1"/>A：<span>安全第一</span>
+        <br />
+        <input type="checkbox" name="answ32"  value="2"/>B：<span>预防为主</span>
+        <br/>
+        <input type="checkbox" name="answ32"  value="1"/>C：<span>节能环保</span>
+        <br/>
+        <input type="checkbox" name="answ32"   value="-1"/>D：<span>强制淘汰</span>
+        <br/>
+        <input type="checkbox" name="answ32"   value="1"/>E：<span>综合治理</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="33">33 根据《危险性较大的分部分项工程安全管理规范》规定,施工单位应依据专项施工方案及安全技术措施组织验收。验收合格并经施工单位(  )签字后,方可进入下一道施工工序或使用<span class="tips 6">正确答案：BC</span></p>
+        <input type="checkbox" name="answ33" value="-1"/>A：<span>企业法人</span>
+        <br />
+        <input type="checkbox" name="answ33"  value="2"/>B：<span>项目技术负责人</span>
+        <br/>
+        <input type="checkbox" name="answ33"  value="1"/>C：<span>项目总监理工程师</span>
+        <br/>
+        <input type="checkbox" name="answ33"   value="-1"/>D：<span>项目经理</span>
+        <br/>
+        <input type="checkbox" name="answ33"   value="-1"/>E：<span>专职安全管理人员</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="34">34 根据《危险性较大的分部分项工程专家论证管理办法》,专项方案论证档案至少应包括(  )等资料。<span class="tips 6">正确答案：BCDE</span></p>
+        <input type="checkbox" name="answ34" value="-1"/>A：<span>项目的名称</span>
+        <br />
+        <input type="checkbox" name="answ34"  value="2"/>B：<span>项目的方案文本</span>
+        <br/>
+        <input type="checkbox" name="answ34"  value="1"/>C：<span>论证会议签到</span>
+        <br/>
+        <input type="checkbox" name="answ34"   value="1"/>D：<span>论证专家意见和建议</span>
+        <br/>
+        <input type="checkbox" name="answ34"   value="1"/>E：<span>论证报告</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="35">35 化学纤维绳具有(  )的优点<span class="tips 6">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ35" value="1"/>A：<span>重量轻</span>
+        <br />
+        <input type="checkbox" name="answ35"  value="2"/>B：<span>质地柔软</span>
+        <br/>
+        <input type="checkbox" name="answ35"  value="1"/>C：<span>耐腐蚀</span>
+        <br/>
+        <input type="checkbox" name="answ35"   value="1"/>D：<span>有弹性</span>
+        <br/>
+        <input type="checkbox" name="answ35"   value="1"/>E：<span>能减少冲击</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="36">36 混凝土机械的(  )应齐全完好。 <span class="tips 6">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ36" value="1"/>A：<span>工作机构</span>
+        <br />
+        <input type="checkbox" name="answ36"  value="2"/>B：<span>制动器</span>
+        <br/>
+        <input type="checkbox" name="answ36"  value="1"/>C：<span>离合器</span>
+        <br/>
+        <input type="checkbox" name="answ36"   value="1"/>D：<span>各种仪表</span>
+        <br/>
+        <input type="checkbox" name="answ36"   value="1"/>E：<span>安全装置</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="37">37 基坑工程施工的监测项目应根据(  )等因素综合确定。 <span class="tips 6">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ37" value="1"/>A：<span>基坑工程安全等级</span>
+        <br />
+        <input type="checkbox" name="answ37"  value="2"/>B：<span>环境保护等级</span>
+        <br/>
+        <input type="checkbox" name="answ37"  value="1"/>C：<span>场地特点</span>
+        <br/>
+        <input type="checkbox" name="answ37"   value="1"/>D：<span>基坑支护形式</span>
+        <br/>
+        <input type="checkbox" name="answ37"   value="1"/>E：<span>施工工艺</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="38"><span class="tips 6">正确答案：ABCE</span></p>
+        <input type="checkbox" name="answ38" value="1"/>A：<span>文明施工费</span>
+        <br />
+        <input type="checkbox" name="answ38"  value="2"/>B：<span>环境保护费</span>
+        <br/>
+        <input type="checkbox" name="answ38"  value="1"/>C：<span>临时设施费</span>
+        <br/>
+        <input type="checkbox" name="answ38"   value="-1"/>D：<span>安全设施费</span>
+        <br/>
+        <input type="checkbox" name="answ38"   value="1"/>E：<span>安全施工费</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="39">39 脚手架分类,按脚手架的支固形式不同,主要分为(  )。<span class="tips 6">正确答案：ABC</span></p>
+        <input type="checkbox" name="answ39" value="1"/>A：<span>落地式脚手架</span>
+        <br />
+        <input type="checkbox" name="answ39"  value="2"/>B：<span>悬挑式脚手架</span>
+        <br/>
+        <input type="checkbox" name="answ39"  value="1"/>C：<span>附墙悬挂脚手架</span>
+        <br/>
+        <input type="checkbox" name="answ39"   value="-1"/>D：<span>危险性较大的落地式脚手架</span>
+        <br/>
+        <input type="checkbox" name="answ39"   value="-1"/>E：<span>超过一定规模的危险性较大的落地式脚手架</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="40"><span class="tips 6">正确答案：ACD</span></p>
+        <input type="checkbox" name="answ40" value="1"/>A：<span>攀登作业</span>
+        <br />
+        <input type="checkbox" name="answ40"  value="-2"/>B：<span>屋面作业</span>
+        <br/>
+        <input type="checkbox" name="answ40"  value="1"/>C：<span>悬空作业</span>
+        <br/>
+        <input type="checkbox" name="answ40"   value="1"/>D：<span>临边作业</span>
+        <br/>
+        <input type="checkbox" name="answ40"   value="-1"/>E：<span>拆除作业</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="41">41 扣件式脚手架具有(  )的特点。<span class="tips 6">正确答案：BCD</span></p>
+        <input type="checkbox" name="answ41" value="-1"/>A：<span>承载力小</span>
+        <br />
+        <input type="checkbox" name="answ41"  value="2"/>B：<span>比较经济</span>
+        <br/>
+        <input type="checkbox" name="answ41"  value="1"/>C：<span>搭设、拆除方便,搭设灵活,使用广泛</span>
+        <br/>
+        <input type="checkbox" name="answ41"   value="1"/>D：<span>脚手架中的扣件用量较大,价格较高</span>
+        <br/>
+        <input type="checkbox" name="answ41"   value="-1"/>E：<span>扣件不易损坏、丢失</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="42">42 膨胀土的强度较高,压缩性很小,并有(  )的特点,性质极不稳定。 <span class="tips 6">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ42" value="1"/>A：<span>强度较高</span>
+        <br />
+        <input type="checkbox" name="answ42"  value="2"/>B：<span>压缩性很小</span>
+        <br/>
+        <input type="checkbox" name="answ42"  value="1"/>C：<span>较强烈的胀缩</span>
+        <br/>
+        <input type="checkbox" name="answ42"   value="1"/>D：<span>反复胀缩变形</span>
+        <br/>
+        <input type="checkbox" name="answ42"   value="-1"/>E：<span>不可塑</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="43">43 施工单位应当建立健全的安全生产责任制度和安全生产教育培训制度,制定安全生产规章制度和操作规程,对所承担的建设工程进行(  ),并做好安全检查记录。<span class="tips 6">正确答案：AC</span></p>
+        <input type="checkbox" name="answ43" value="1"/>A：<span>定期安全检查</span>
+        <br />
+        <input type="checkbox" name="answ43"  value="-2"/>B：<span>不定期安全检查</span>
+        <br/>
+        <input type="checkbox" name="answ43"  value="1"/>C：<span>专项安全检查</span>
+        <br/>
+        <input type="checkbox" name="answ43"   value="-1"/>D：<span>分项安全检查</span>
+        <br/>
+        <input type="checkbox" name="answ43"   value="-1"/>E：<span>分部安全检查</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="44">44 施工现场的哪些场所应配备临时应急照明?(  )<span class="tips 6">正确答案：ABCDE</span></p>
+        <input type="checkbox" name="answ44" value="1"/>A：<span>自备发电机房及变、配电房</span>
+        <br />
+        <input type="checkbox" name="answ44"  value="2"/>B：<span>水泵房</span>
+        <br/>
+        <input type="checkbox" name="answ44"  value="1"/>C：<span>无天然采光的作业场所及疏散通道</span>
+        <br/>
+        <input type="checkbox" name="answ44"   value="1"/>D：<span>高度超过100m的在建工程的室内疏散通道</span>
+        <br/>
+        <input type="checkbox" name="answ44"   value="1"/>E：<span>发生火灾时仍需坚持工作的其他场所</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="45">45 遇有特殊气候、环境、情况可能对脚手架造成不利影响或损坏,应在被影响或损坏前后组织专人对脚手架进行(  ),确保脚手架的正常使用<span class="tips 6">正确答案：ABC</span></p>
+        <input type="checkbox" name="answ45" value="1"/>A：<span>检查</span>
+        <br />
+        <input type="checkbox" name="answ45"  value="2"/>B：<span>加固</span>
+        <br/>
+        <input type="checkbox" name="answ45"  value="1"/>C：<span>修复</span>
+        <br/>
+        <input type="checkbox" name="answ45"   value="-1"/>D：<span>油漆</span>
+        <br/>
+        <input type="checkbox" name="answ45"   value="-1"/>E：<span>拆除</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="46">46 在附着升降脚手架拆除的下方,应设置(  )<span class="tips 6">正确答案：ABC</span></p>
+        <input type="checkbox" name="answ46" value="1"/>A：<span>警戒标志</span>
+        <br />
+        <input type="checkbox" name="answ46"  value="2"/>B：<span>警我线</span>
+        <br/>
+        <input type="checkbox" name="answ46"  value="1"/>C：<span>落实专人监护</span>
+        <br/>
+        <input type="checkbox" name="answ46"   value="-1"/>D：<span>消防器材</span>
+        <br/>
+        <input type="checkbox" name="answ46"   value="-1"/>E：<span>消防水源</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="47">47 支腿有(  )等形式<span class="tips 6">正确答案：ACDE</span></p>
+        <input type="checkbox" name="answ47" value="1"/>A：<span>蛙式支腿</span>
+        <br />
+        <input type="checkbox" name="answ47"  value="-2"/>B：<span>平行支腿</span>
+        <br/>
+        <input type="checkbox" name="answ47"  value="1"/>C：<span>H式支腿</span>
+        <br/>
+        <input type="checkbox" name="answ47"   value="1"/>D：<span>X式支腿</span>
+        <br/>
+        <input type="checkbox" name="answ47"   value="1"/>E：<span>辐射式支腿</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="48">48 塔式起重机一般设置有(  )。这些机构是塔机最基本的工作机构。<span class="tips 6">正确答案：ACDE</span></p>
+        <input type="checkbox" name="answ48" value="1"/>A：<span>起升机构</span>
+        <br />
+        <input type="checkbox" name="answ48"  value="-2"/>B：<span>操作机构</span>
+        <br/>
+        <input type="checkbox" name="answ48"  value="1"/>C：<span>变幅机构</span>
+        <br/>
+        <input type="checkbox" name="answ48"   value="1"/>D：<span>回转机构</span>
+        <br/>
+        <input type="checkbox" name="answ48"   value="1"/>E：<span>行走机机构</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="49">49 投入使用的安全帽,必须满足(  )要求。<span class="tips 6">正确答案：ACDE</span></p>
+        <input type="checkbox" name="answ49" value="1"/>A：<span>耐冲击</span>
+        <br />
+        <input type="checkbox" name="answ49"  value="-2"/>B：<span>耐高温</span>
+        <br/>
+        <input type="checkbox" name="answ49"  value="1"/>C：<span>耐穿透</span>
+        <br/>
+        <input type="checkbox" name="answ49"   value="1"/>D：<span>耐低温性能良好</span>
+        <br/>
+        <input type="checkbox" name="answ49"   value="1"/>E：<span>侧向刚醒达到规范要求</span>
+    </fieldset>
+    <fieldset class ="question">
+        <div id="result1" class="result">4</div>
+        <p id="50">50 消防器材包括:(  )<span class="tips 6">正确答案：ABCD</span></p>
+        <input type="checkbox" name="answ50" value="1"/>A：<span>灭火器</span>
+        <br />
+        <input type="checkbox" name="answ50"  value="2"/>B：<span>消防水枪</span>
+        <br/>
+        <input type="checkbox" name="answ50"  value="1"/>C：<span>水带接口</span>
+        <br/>
+        <input type="checkbox" name="answ50"   value="1"/>D：<span>不锈钢灭火器</span>
+        <br/>
+        <input type="checkbox" name="answ50"   value="-1"/>E：<span>灭火毯</span>
+    </fieldset>
+    </form>
+     
+<script>
+// $(function(){
+//     alert('做完点击 显示答案 自己对一下哈～');
+// })
+document.getElementById('btn1').addEventListener('click',show);
+function show(){
+    if($("#btn1").text()=='显示答案'){
+        $("#btn1").text('隐藏答案');
+        $('.tips').css('display','block');
+    }else{
+        $("#btn1").text('显示答案');
+        $('.tips').css('display','none');
+    }
+}
+var score = document.getElementById('btn3');
+score.addEventListener('click',coreCount);
+function coreCount(){
+    $('.tips').css('display','block');
+	var righTcores=0;
+	var qestions=document.getElementsByClassName("question")
+    var arr = [];
+	for(var i=0;i<qestions.length;i++){
+		var count=0;
+		var flag=1;
+		var answ=document.getElementsByName("answ"+(i+1));
+		// var result = Number($("#result"+(i+1)).html());
+        // var sum;
+        for(var j=0;j<answ.length;j++){
+			if(answ[j].checked){
+                // console.log(answ[j].checked.length)
+				if(answ[j].value*1<0){
+					flag=0;
+                    x=document.getElementById(i+1);
+					x.style.color="red";
+                    // y=document.getElementsByClassName(i+1)[0];
+                    // y.style.display = 'block';
+					break;
+				}
+                else{
+                    flag=1;
+                }
+			}
+		}
+		if(flag==1){
+            count++;
+            righTcores=count;
+        }	
+	}	
+	// alert("做对了： "+ righTcores +'  做错了：'+(qestions.length-righTcores)+ ' 正确率：'+((righTcores/qestions.length)*100).toFixed(2)+'%');
+}
+$("#btn2").click(function(){
+    window.location.reload();
+})
+</script>
+</body">
+</html>
